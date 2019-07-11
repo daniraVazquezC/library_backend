@@ -18,6 +18,7 @@ gem "rack-mini-profiler", require: false
 gem "normalize-rails"
 gem "alom"
 gem "autoprefixer-rails"
+gem 'rack-cors'
 
 
 group :development do

@@ -11,7 +11,6 @@ gem "uglifier", ">= 1.3.0"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "rack-canonical-host"
 gem "webpacker", "~> 3.5"
-
 # For memory profiling
 gem "rack-mini-profiler", require: false
 

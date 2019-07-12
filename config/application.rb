@@ -52,6 +52,7 @@ module LibraryBackend
                 methods: [:get, :post, :put, :patch, :delete, :options, :head]
      end
     end
+    config.action_controller.allow_forgery_protection = false
 
 
   end

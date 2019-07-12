@@ -19,6 +19,7 @@ gem "normalize-rails"
 gem "alom"
 gem "autoprefixer-rails"
 gem 'rack-cors'
+gem "active_model_serializers"
 
 
 group :development do

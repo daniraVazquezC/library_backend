@@ -31,3 +31,8 @@ rails g migration addForeignKeyToBooks
 rails db:migrate
 rails c --sandbox 
 rails db:migrate
+rails g controller Authors
+rails c
+rails db:reset
+rails db:seed
+rails c

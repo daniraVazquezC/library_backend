@@ -1,13 +1,12 @@
 class AuthorsController < ApplicationController
 
   def index
-    if params[:author] != '' 
-      @author = Author.where("lower(name) like ?","%#{params[:author].downcase}%")
-      render json: @author
-    else
+    if params[:author].nil?
       @authors = Author.all
-      render json: @authors
+    else
+      @authors = Author.where("lower(name) like ?","%#{params[:author].downcase}%")
     end
+    render json: @authors
   end
 
 

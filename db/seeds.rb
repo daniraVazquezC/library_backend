@@ -7,5 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 author = Author.create({ name: 'Victor Hugo' })
-Book.create([{ title: 'Star Wars',author_id: author.id , resume: 'nfdfnjdnfjsdfdnfsdf' },
-  { title: 'Star Wars 2',author_id: author.id , resume: 'nfdjfndjfsdfdf fdffrfr'}])
+author_2 = Author.create({ name: 'Alan Poe' })
+Book.create([{ title: 'Los miserables',author_id: author.id , resume: 'I love this book' },
+  { title: 'Corazon delator',author_id: author_2.id , resume: 'I like it so much'}])
